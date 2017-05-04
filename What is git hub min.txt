@@ -1,0 +1,36 @@
+What is git hub min (7 min)
+How is it used (demonstration)  (7min)
+	How to set an account up
+	How to make a first repository 
+	Pull requests 
+	What is a merge 
+	Conflicts 
+Why is it used? 
+Three way to interact with git 
+	Git GUI 
+	IDE with git integration
+	Command line git commands  
+Before you make a push you would make a pull to get the latest updated this helps stop conflicts before they are created.  
+How new code plays with old code is git hubs feature. 
+The dev and master branches stay in line
+\Standard workflow in get is to master which would be production code 
+The dev branch would be off of master all of the developers would cut their branches form dev 
+Supervisor controls the master (production code, the app running and people using it) branch and respsonser for merges into production code would pull master into dev to make sure its up to date 
+Current branch dev – new branch named tickets (“the agile process” normaly a way of outlining a job for a particular person)  
+Moldules have .py at the end and are lowercase while the main file is uppercase 
+The process of pushing creates a branch
+Origin 
+Branch 
+Clone 
+Check out 
+Fetch 
+Pull
+Push
+Merge
+Pull request
+Commit- a save and it is good to commit often (its possible to revert back to a previious version of the code) attach messages to a commit that is usefull like what exactly you changed.  
+Add- what you want to add into a commit 
+
+
+
+
