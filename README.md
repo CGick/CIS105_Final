@@ -1,5 +1,5 @@
 # CIS-105-01/-02 Introduction to Object Oriented Programming
-# Final Exam/Project
+## Final Exam/Project
 
 Your final exam and project is worth 160 points total. 
 Part I: Group Final Project. In teams of 3-5 people, present a 20-30 minute Python lesson to the class. This lesson can be a new topic, overview of a new module, or a solution to a problem type we haven’t dealt with in class. Points given for (see rubric below) teaching lesson, handouts, powerpoint, and references used. All members of the group must participate in the teaching lesson. Teaching lesson to be given the last week of class. Get idea pre-approved by me. 80 points total. 
