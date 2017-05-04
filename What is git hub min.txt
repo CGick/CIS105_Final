@@ -1,0 +1,36 @@
+What is git hub min (7 min)
+How is it used (demonstration)  (7min)
+	How to set an account up
+	How to make a first repository 
+	Pull requests 
+	What is a merge? 
+	Conflicts 
+Why is it used? 
+Three way to interact with git 
+	Git GUI 
+	IDE with git integration
+	Command line git commands  
+Before you make a push you would make a pull to get the latest updated this helps stop conflicts before they are created.  
+How new code plays with old code is git hubs feature. 
+The dev and master branches stay in line
+Standard workflow in get is to master which would be production code 
+The dev branch would be off of master all of the developers would cut their branches form dev 
+Supervisor controls the master (production code, the app running and people using it) branch and response for merges into production code would pull master into dev to make sure its up to date 
+Current branch dev – new branch named tickets (“the agile process” normally a way of outlining a job for a particular person)  
+Modules have .py at the end and are lowercase while the main file is uppercase 
+The process of pushing creates a branch
+Origin- name of the remote repository unless otherwise specified by user
+Branch- A branch is a parallel version of a repository. It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the "live" version. 
+Clone- A clone is a copy of a repository that lives on your computer instead of on a website's server somewhere, or the act of making that copy. 
+Checkout – changing working branch, takes and swaps the code in and out of the directory 
+Fetch- Fetching refers to getting the latest changes from an online repository (like GitHub.com) without merging them in.
+Pull- Pull refers to when you are fetching in changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date.
+Push- Pushing refers to sending your committed changes to a remote repository such as GitHub.com. For instance, if you change something locally, you'd want to then push those changes so that others may access them.
+Merge- Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another. This often happens as a Pull Request (which can be thought of as a request to merge), or via the command line.
+Pull request: Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators
+Commit- a save and it is good to commit often (it’s possible to revert back to a previous version of the code) attach messages to a commit that is useful like what exactly you changed.  
+Add- what you want to add into a commit 
+
+
+
+
