@@ -36,6 +36,8 @@ def main():
             change(emails)
         elif choice == DELETE:
             delete(emails)
+    #send email list to file 
+    store_email_list(emails)
     
 def get_option():
     #display menu options
@@ -136,5 +138,19 @@ def load_email_list():
 
     #return dictionary  
     return mailList
+
+def store_email_list(dictionary):
+    try:
+        #open file
+        file = open(r'..\data\emailList.dat', 'wb')
+        
+        #write serialized email list to file
+        pickle.dump(dictionary, file)
+        
+        #close file
+        file.close()
+    except IOError as err:
+        print('Error: ' + str(err))    
+
 #run main
 main()
