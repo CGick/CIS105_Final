@@ -16,8 +16,7 @@ QUIT = 6
 
 def main():
     #get email list form file
-    emails = {}
-    
+    emails = load_email_list()    
     #sentinal flag for loop control
     choice = 0
     
@@ -122,6 +121,24 @@ def delete(dictionary):
     else:
         print(nm + ' is not in your email list.')
     print()
+
+def load_email_list():
+    try:
+        #open file
+        file = open(r'..\data\emailList.dat', 'rb')
+        
+        #load contents of file to dictionary
+        mailList = pickle.load(file)
+        
+        #close file
+        file.close()
+    except IOError:
+        #if file does not exist create a new dictionary 
+        mailList = {}
+
+    #return dictionary  
+    return mailList
+
 def store_email_list(dictionary):
     try:
         #open file
@@ -134,5 +151,6 @@ def store_email_list(dictionary):
         file.close()
     except IOError as err:
         print('Error: ' + str(err))    
+
 #run main
 main()
